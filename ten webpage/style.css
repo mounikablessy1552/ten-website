@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.navbar .container .navbar-brand {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 550;
+}
+
+.navbar .container .navbar-brand span {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.navbar .container .navbar-brand sup {
+    color: #378dff;
+    font-size: 20px;
+}
+
+body>.container-fluid {
+    background-color: black;
+}
+
+.d-flex .btn {
+    color: #fff;
+    font-size: 18px;
+}
+
+.d-flex .btn:hover {
+    background-color: rgb(47, 39, 39);
+    color: #fff;
+}
+
+.col-lg-10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    padding: 100px 0px;
+    color: white;
+}
+
+.container>.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 63vh; */
+}
+
+.col-lg-10 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 290px;
+    height: 290px;
+}
+
+.col-lg-10 P {
+    text-align: center;
+}
+
+.col-lg-10 .btn {
+    margin-top: 10px;
+    background-color: #0b6ae6e1;
+    width: 110px;
+    height: 40px;
+    color: white;
+    margin-left: 15px;
+}
+
+
+.images2 {
+    padding: 50px 0px;
+    background-image: url("img/Employees-blackwhite.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 300px;
+}
+
+.relative-item {
+    border: 7px solid blue;
+    width: 60%;
+    height: 15rem;
+    font-size: 70px;
+    line-height: 80px;
+    text-align: center;
+    margin-left: 70px;
+    color: white;
+}
+
+.col-lg-5 button {
+    width: 130px;
+    height: 50px;
+    border: 2px solid rgb(252, 248, 248);
+    border-radius: 50px;
+    background-color: rgba(173, 96, 96, 0.126);
+    color: white;
+}
+
+.col-lg-6 button:hover {
+    transform: scale(0.9);
+    transition: 3s;
+}
+
+.shadows {
+    /* height: 50vh; */
+    background-color: rgb(28, 26, 26);
+}
+
+.slide {
+    width: 80%;
+}
+
+.part3 p {
+    padding: 50px 32%;
+    text-align: center;
+}
+
+
+.col-lg-4 i {
+    font-size: 40px;
+}
+
+.why h1 {
+    text-align: center;
+    margin-bottom: -20px;
+    color: white;
+}
+
+.why h1 span {
+    color: #378dff;
+    font-weight: bolder;
+}
+
+.hrline {
+    width: 40px;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.button3 {   
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    width: 160px;
+    height: 40px;
+    margin: 15px;
+}
+
+
+.container .row .col-lg-1 span{
+font-weight: 900;
+font-size: 50px;
+}
+
+.container .row .col-lg-1 sup{
+   color: #378dff;
+    font-size: 20px;
+
+}
+
+
+.social i{
+    margin: 15px;
+    font-size: 25px;
+}
